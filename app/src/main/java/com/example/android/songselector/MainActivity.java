@@ -153,9 +153,6 @@ public class MainActivity extends AppCompatActivity {
                         if(mProgress > (player.getDuration() - 30)){
                             player.seekTo(0);
                         }
-                        else{
-                            player.seekTo(mProgress);
-                        }
 
                         if(player.isPlaying()){
                             player.pause();
