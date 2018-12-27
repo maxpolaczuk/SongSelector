@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SongSelector</string>
+
+    <!-- Button names-->
+    <string name="choose_song_button">Choose song</string>
+    <string name="stop_button">Stop song</string>
+
+    <!-- Dialog Box strings -->
+    <string name="select_song">Select song</string>
+    <string name="button_browse">BROWSE</string>
+    <string name="button_cancel">CANCEL</string>
+    <string name="choose_song">Choose a song to play.</string>
+
+</resources>

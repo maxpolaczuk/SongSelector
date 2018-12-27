@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/play_button"
+        android:src="@drawable/play_button"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:scaleType="centerCrop"/>
+
+
+    <SeekBar
+        android:id="@+id/seek_bar"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="16dp" />
+
+    <Button
+        android:id="@+id/choose_song_button"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/choose_song_button"/>
+
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_margin="16dp"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/stop_button"/>
+
+</LinearLayout>
