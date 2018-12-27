@@ -290,7 +290,7 @@ public class MainActivity extends AppCompatActivity {
                 if(selectedSong != null){
                     mySong = selectedSong.toString();
 
-                    //Texting another way to receive and store the audio file path...
+                    //Testing another way to receive and store the audio file path...
                     /*
                     mySong = selectedSong.getPath();
                     try {
